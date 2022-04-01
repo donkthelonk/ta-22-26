@@ -34,18 +34,25 @@ Module Program
         'Console.ReadLine()
 
         'Video 25 - Select Case Else
-        Dim userString As String = Nothing
-        Console.WriteLine("Enter a string: ")
-        userString = Console.ReadLine()
-        Select Case userString
-            Case "hello"
-                Console.WriteLine("goodbye")
-            Case "goodbye"
-                Console.WriteLine("toast")
-            Case "fishing"
-                Console.WriteLine("boat")
-            Case Else
-                Console.WriteLine("LEGOOO")
-        End Select
+        'Dim userString As String = Nothing
+        'Console.WriteLine("Enter a string: ")
+        'userString = Console.ReadLine()
+        'Select Case userString
+        '    Case "hello"
+        '        Console.WriteLine("goodbye")
+        '    Case "goodbye"
+        '        Console.WriteLine("toast")
+        '    Case "fishing"
+        '        Console.WriteLine("boat")
+        '    Case Else
+        '        Console.WriteLine("LEGOOO")
+        'End Select
+
+        'Video 26 - For Next Loop
+        Dim int1 As Integer
+        For int1 = 1 To 1000000000
+            Console.WriteLine("int1 is equal to: " & int1)
+        Next
+        Console.ReadLine()
     End Sub
 End Module
