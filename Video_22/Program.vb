@@ -20,7 +20,7 @@ Module Program
         'Console.ReadLine()
 
         'Video 24 - Select Case
-        Dim userInt As String = Nothing
+        Dim userInt As Integer = Nothing
         Console.WriteLine("Please enter an integer: ")
         userInt = Console.ReadLine()
         Select Case userInt
@@ -32,5 +32,8 @@ Module Program
                 Console.WriteLine("OOOK")
         End Select
         Console.ReadLine()
+
+        'Video 25 - Select Case Else
+
     End Sub
 End Module
