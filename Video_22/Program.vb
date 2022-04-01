@@ -20,20 +20,32 @@ Module Program
         'Console.ReadLine()
 
         'Video 24 - Select Case
-        Dim userInt As Integer = Nothing
-        Console.WriteLine("Please enter an integer: ")
-        userInt = Console.ReadLine()
-        Select Case userInt
-            Case 0
-                Console.WriteLine("Hello")
-            Case 1
-                Console.WriteLine("Ayyy")
-            Case 2
-                Console.WriteLine("OOOK")
-        End Select
-        Console.ReadLine()
+        'Dim userInt As Integer = Nothing
+        'Console.WriteLine("Please enter an integer: ")
+        'userInt = Console.ReadLine()
+        'Select Case userInt
+        '    Case 0
+        '        Console.WriteLine("Hello")
+        '    Case 1
+        '        Console.WriteLine("Ayyy")
+        '    Case 2
+        '        Console.WriteLine("OOOK")
+        'End Select
+        'Console.ReadLine()
 
         'Video 25 - Select Case Else
-
+        Dim userString As String = Nothing
+        Console.WriteLine("Enter a string: ")
+        userString = Console.ReadLine()
+        Select Case userString
+            Case "hello"
+                Console.WriteLine("goodbye")
+            Case "goodbye"
+                Console.WriteLine("toast")
+            Case "fishing"
+                Console.WriteLine("boat")
+            Case Else
+                Console.WriteLine("LEGOOO")
+        End Select
     End Sub
 End Module
